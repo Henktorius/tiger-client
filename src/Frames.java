@@ -34,7 +34,7 @@ public class Frames {
         submit_button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(username_tf.getText().toLowerCase().equals("henktorius") && password_tf.getText().equals("1234")) {
+                if(username_tf.getText().toLowerCase().equals("david") && password_tf.getText().equals("oleloscaracoles")) {
                     status_label.setText("Bienvenido");
                 }
                 else {
